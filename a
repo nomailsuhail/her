@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>To My Always and Forever</title>
+    <style>
+      /* Style the page with a romantic theme */
+      body {
+        background-color: #F8C4C4;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+      }
+      h1 {
+        color: #FFFFFF;
+        font-size: 48px;
+        margin-top: 50px;
+      }
+      img {
+        border-radius: 50%;
+        height: 200px;
+        margin-top: 30px;
+      }
+      p {
+        color: #FFFFFF;
+        font-size: 24px;
+        margin-top: 30px;
+      }
+      button {
+        background-color: #FFFFFF;
+        border: none;
+        border-radius: 50px;
+        color: #F8C4C4;
+        font-size: 24px;
+        margin-top: 30px;
+        padding: 15px 30px;
+        transition: background-color 0.5s ease;
+      }
+      button:hover {
+        background-color: #F8C4C4;
+        color: #FFFFFF;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>To My Always and Forever</h1>
+    <img src="https://i.imgur.com/WpZwJvC.jpg" alt="Picture of you two together">
+    <p>I love you more than anything in this world. You are my everything and I cannot imagine my life without you. You bring me happiness and joy every day and I am so grateful to have you in my life. I will always love you, forever and ever.</p>
+    <button id="surprise-btn">Surprise!</button>
+    
+    <script>
+      // Add an event listener to the button
+      document.getElementById("surprise-btn").addEventListener("click", function() {
+        // Do something special for your girlfriend when she clicks the button
+        alert("Surprise! I have a special date planned for us tonight. Dress up and be ready by 7 PM. I love you!");
+      });
+    </script>
+  </body>
+</html>
+
